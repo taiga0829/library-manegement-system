@@ -1,0 +1,38 @@
+/* Custom CSS for Navbar */
+.navbar {
+    border-bottom: 2px solid #343a40; /* Add a bottom border */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Set text color */
+    padding: 10px 15px; /* Add padding to nav links */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #343a40; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Set color for hamburger icon */
+}
+
+/* Adjustments for Mobile View */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px; /* Adjust margin for mobile view */
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px; /* Adjust padding for mobile view */
+    }
+}
